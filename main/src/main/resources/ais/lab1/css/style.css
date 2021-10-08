@@ -1,0 +1,15 @@
+.main {
+    -fx-padding: 20;
+    -fx-font-size: 14;
+    -fx-background-color: #fff;
+}
+
+.container {
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-background-color: #e1f5fe;
+}
+
+#title {
+    -fx-font-size: 18;
+}
