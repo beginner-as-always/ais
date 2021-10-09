@@ -1,15 +1,32 @@
+@font-face {
+    src: url("../../../fonts/Roboto-Regular.ttf");
+}
+
 .main {
     -fx-padding: 20;
+    -fx-spacing: 10;
     -fx-font-size: 14;
     -fx-background-color: #fff;
 }
 
+.text {
+    -fx-font-family: "Roboto";
+}
+
 .container {
-    -fx-padding: 10;
+    -fx-padding: 20;
+    -fx-spacing: 10;
     -fx-alignment: center;
-    -fx-background-color: #e1f5fe;
+    -fx-background-color: #f0faff;
+    -fx-background-radius: 5;
 }
 
 #title {
-    -fx-font-size: 18;
+    -fx-font-size: 24;
+}
+
+/* CHECKBOX STYLING */
+
+CheckBox:selected .mark {
+    -fx-background-color: #0277bd;
 }
